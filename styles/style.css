@@ -1,93 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-*{
-    font-family: Fira Sans;
-    padding: 0;
-    margin: 0;
+* {
+  font-family: Fira Sans;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: #F5F5F5;
-    /* width:1536px; */
+body {
+  background-color: #f5f5f5;
+  /* width:1536px; */
 }
-
 
 /* Shares Styles */
-.secondary-bg{
-    background-color: #C6E4D6;
+.secondary-bg {
+  background-color: #c6e4d6;
 }
 
-.btn-primary{
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
+.btn-primary {
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
 }
-
 
 /* Nav Styles */
-nav{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 30px 330px;
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px 330px;
 }
 
-.nav-title{
-    font-weight: bold;
-    font-size: 32px;
-    color: #0E0E0E;
+.nav-title {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0e0e0e;
 }
 
-.sign-in-btn{
-    width: 116px;
-    height: 52px;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #006A50;
-    color: #006A50;
+.sign-in-btn {
+  width: 116px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #006a50;
+  color: #006a50;
 }
 
 /* Header */
 
-.banner{
-    max-width: 1280px;
-    height: 560px;
-    border-radius: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: left;
-    margin: 20px auto 80px;
+.banner {
+  max-width: 1280px;
+  height: 560px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+  margin: 20px auto 80px;
 }
 
-.banner-content{
-    margin-left: 60px;
+.banner-content {
+  margin-left: 60px;
 }
 
-.banner-title{
-    font-size: 24px;
-    opacity: 0.5;
-    margin-bottom: 16px;
+.banner-title {
+  font-size: 24px;
+  opacity: 0.5;
+  color: #0e0e0e;
+  margin-bottom: 16px;
 }
 
-.banner-description{
-    font-size: 56px;
-    font-weight: bold;
-    margin-bottom: 24px;
+.banner-description {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
 
-.banner-btn{
-    color: white;
-    background-color: #006A50;
-    font-size: 18px;
-    width: 270px;
-    height: 56px;
-    border: none;
+.banner-btn {
+  color: white;
+  background-color: #006a50;
+  font-size: 18px;
+  width: 270px;
+  height: 56px;
+  border: none;
 }
 
-.banner-img{
-    margin-right: 60px;
+.banner-img {
+  margin-right: 60px;
+}
+
+/* Pillars Section Styles */
+.pillars {
+  max-width: 1280px;
+  height: 560px;
+  margin: 20px auto 80px;
+}
+
+.pillars .section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+.pillar-card-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.pillar-cards {
+  width: 302px;
+  height: 210px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pillar-title {
+  color: #0e0e0e;
+  opacity: 0.8;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.pillar-description {
+  color: #0e0e0e;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.pillar-cards img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
 }
