@@ -283,147 +283,224 @@ nav {
 }
 
 /* Opinion Section Styles */
-.opinion{
-    width: 1280px;
-    height: 48px;
-    margin: 0 auto;
-    /* margin-bottom: 80px; */
+.opinion {
+  width: 1280px;
+  height: 48px;
+  margin: 0 auto;
+  /* margin-bottom: 80px; */
 }
 
-.opinion-title{
-    font-size: 40px;
-    color: #0e0e0e;
-    margin-bottom: 24px;
+.opinion-title {
+  font-size: 40px;
+  color: #0e0e0e;
+  margin-bottom: 24px;
 }
 
-.opinion .table{
-    background-color: white;
-    border-radius: 16px;
-    padding: 32px;
+.opinion .table {
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px;
 }
 
-.opinion .questions{
-    color: #0e0e0e;
-    display: flex;
-    justify-content: space-between;
-    background-color: #C6E4D6;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 24px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+.opinion .questions {
+  color: #0e0e0e;
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-table{
-    border-collapse: collapse;
-    max-width: 1280px;
+table {
+  border-collapse: collapse;
+  max-width: 1280px;
 }
 
-td{
-    color: #0e0e0e;
-    padding: 24px;
-    width: 100%;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    font-size: 16px;
-    font-weight: 600;
+td {
+  color: #0e0e0e;
+  padding: 24px;
+  width: 100%;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 16px;
+  font-weight: 600;
 }
 
-td .choice{
-    width: 152px;
-    height: 44px;
-    /* padding: 10px 0; */
-    font-size: 16px;
-    border-radius: 4px;
-    color: #0e0e0e;
-    background-color: #C6E4D6;
+td .choice {
+  width: 152px;
+  height: 44px;
+  /* padding: 10px 0; */
+  font-size: 16px;
+  border-radius: 4px;
+  color: #0e0e0e;
+  background-color: #c6e4d6;
 }
 
 /* Recent News Styles */
-.recent-news{
-    width: 1280px;
-    /* height: 1406px; */
-    margin: 0 auto;
+.recent-news {
+  width: 1280px;
+  /* height: 1406px; */
+  margin: 0 auto;
 }
 
-.recent-news-container{
-    margin-top: 500px;
+.recent-news-container {
+  margin-top: 500px;
 }
 
-.recent-news-title{
-    color: #0e0e0e;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 24px;
+.recent-news-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
 
-.recent-news-description{
-    color: #0e0e0e;
-    opacity: 0.7;
-    font-size: 16px;
-    margin-bottom: 32px;
+.recent-news-description {
+  color: #0e0e0e;
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 32px;
 }
 
-.news-img img{
-    border-radius: 24px;
+.news-img img {
+  border-radius: 24px;
 }
 
-.news-box-1, .news-box-2, .news-box-3{
-    margin-top: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 80px;
-    background-color: white;
-    padding: 48px;
-    border-radius: 24px;
+.news-box-1,
+.news-box-2,
+.news-box-3 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 80px;
+  background-color: white;
+  padding: 48px;
+  border-radius: 24px;
 }
 
-.news-contents .title{
-    font-size: 32px;
-    font-weight: bold;
-    opacity: 0.8;
-    margin-bottom: 12px;
+.news-contents .title {
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 0.8;
+  margin-bottom: 12px;
 }
 
-.news-contents .date-time{
-    font-size: 16px;
-    opacity: 0.7;
-    margin-bottom: 12px;
+.news-contents .date-time {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 12px;
 }
 
-.news-contents .date-time .time{
-    margin-left: 12px;
+.news-contents .date-time .time {
+  margin-left: 12px;
 }
 
-.news-content-pic{
-    width: 134px;
-    height: 40px;
-    margin-right: 32px;
-    margin-bottom: 12px;
+.news-content-pic {
+  width: 134px;
+  height: 40px;
+  margin-right: 32px;
+  margin-bottom: 12px;
 }
 
-.news-box .content{
-    font-size: 16px;
-    opacity: 0.7;
+.news-box .content {
+  font-size: 16px;
+  opacity: 0.7;
 }
 
-.btn-news{
-    margin-top: 32px;
-    padding: 13px 26px;
-    color: white;
-    background-color: #006A50;
-    border: none;
+.btn-news {
+  margin-top: 32px;
+  padding: 13px 26px;
+  color: white;
+  background-color: #006a50;
+  border: none;
 }
 
-.news-box-2{
-    margin-top: 32px;
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 80px;
-    background-color: white;
-    padding: 48px;
-    border-radius: 24px;
+.news-box-2 {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 80px;
+  background-color: white;
+  padding: 48px;
+  border-radius: 24px;
+}
+
+/* Donate Now Section Styles */
+.donate-container {
+  width: 1280px;
+  /* height: 464px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.donate-container .donate-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.donate-container .donate-description {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.donation-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #0e0e0e;
+  opacity: 0.8;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.donation-amount .amount {
+  width: 240px;
+  height: 128px;
+  /* padding: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  cursor: pointer;
+}
+
+.donation-amount .diff {
+  background-color: #c5e4d5;
+}
+
+.donate-container input {
+  font-size: 20px;
+  width: 1000px;
+  height: 64px;
+  /* padding: 20px 40px; */
+  margin: 32px 0;
+  color: #0e0e0e;
+  background-color: white;
+  opacity: 0.4;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.btn-donate-div .btn-donate {
+  border-radius: 8px;
+  color: white;
+  background-color: #006a50;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 18px 34px;
+  margin-bottom: 80px;
+  border: none;
+  cursor: pointer;
 }
