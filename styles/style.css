@@ -287,7 +287,7 @@ nav {
     width: 1280px;
     height: 48px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
 
 .opinion-title{
@@ -337,3 +337,93 @@ td .choice{
     background-color: #C6E4D6;
 }
 
+/* Recent News Styles */
+.recent-news{
+    width: 1280px;
+    /* height: 1406px; */
+    margin: 0 auto;
+}
+
+.recent-news-container{
+    margin-top: 500px;
+}
+
+.recent-news-title{
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.recent-news-description{
+    color: #0e0e0e;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.news-img img{
+    border-radius: 24px;
+}
+
+.news-box-1, .news-box-2, .news-box-3{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+}
+
+.news-contents .title{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+.news-contents .date-time{
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+
+.news-contents .date-time .time{
+    margin-left: 12px;
+}
+
+.news-content-pic{
+    width: 134px;
+    height: 40px;
+    margin-right: 32px;
+    margin-bottom: 12px;
+}
+
+.news-box .content{
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.btn-news{
+    margin-top: 32px;
+    padding: 13px 26px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+}
+
+.news-box-2{
+    margin-top: 32px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+}
