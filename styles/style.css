@@ -281,3 +281,59 @@ nav {
   color: #0e0e0e;
   opacity: 0.6;
 }
+
+/* Opinion Section Styles */
+.opinion{
+    width: 1280px;
+    height: 48px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.opinion-title{
+    font-size: 40px;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+.opinion .table{
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.opinion .questions{
+    color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 1280px;
+}
+
+td{
+    color: #0e0e0e;
+    padding: 24px;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+td .choice{
+    width: 152px;
+    height: 44px;
+    /* padding: 10px 0; */
+    font-size: 16px;
+    border-radius: 4px;
+    color: #0e0e0e;
+    background-color: #C6E4D6;
+}
+
