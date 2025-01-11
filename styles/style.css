@@ -30,7 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 30px 330px;
+  padding: 30px 140px;
 }
 
 .nav-title {
@@ -575,33 +575,33 @@ td .choice {
 }
 
 /* Footer Styles */
-.footer{
-    width: 100%;
-    height: 226px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    gap: 32px;
+.footer {
+  width: 100%;
+  height: 226px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 32px;
 }
 
-.footer .footer-title{
-    font-weight: 700;
-    font-size: 32px;
-    color: #0E0E0E;
+.footer .footer-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0e0e0e;
 }
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 32px;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
 }
-hr{
-    border: none;
-    border-bottom: 1px solid #0E0E0E1A;
-    width: 1122px;
+hr {
+  border: none;
+  border-bottom: 1px solid #0e0e0e1a;
+  width: 1122px;
 }
